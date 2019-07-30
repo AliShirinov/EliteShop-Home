@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+ }
+a{
+    text-decoration: none;
+}
+    a:hover{
+    text-decoration: none;
+}
+li{
+     list-style-type: none;
+ }
+    /* HEADER - INFO */
+    .container-fluid-head {
+        width: 100%;
+    }
+ .info {
+    height: 30px;
+    background-color: #000;
+    border-right: 1px solid rgba(240, 233, 233, 0.473);
+    text-align: center;
+ }
+ 
+ .info i {
+    color: #2fdab8;
+    font-size: .7em;   
+ }
+ .info span {
+    color: #fff;
+    vertical-align: middle;
+    font-size: .8em;
+    display: inline-block;
+    padding-left: 15px;
+ }
+
+ .clear {
+     clear: both;
+ }
+
+ /* HEADER - LOGO */
+
+ /* SHOP-SEARCH */
+ .container{
+     height: 95px;
+     background-color: #fff;
+ }
+ .search-content {
+    position: relative;
+ }
+ .container .sear {
+     width: 80%;
+     outline: none;
+     margin-top: 30px;
+     border: 1px solid #ddd;
+     padding: 12px 10px;
+     letter-spacing: 1px;
+ }
+ .container .sub {
+     width: 15%;
+     outline: none;
+     display: inline-block;
+     margin-left: 5px;
+     padding: 12px 10px;
+     background-color: #2fdab8;
+     border: 1px solid transparent;
+     cursor: pointer;
+ }
+ 
+ .search-content i {
+     position: absolute;
+     right: 10%;
+     bottom: 30%;
+     font-size: 1.5em;
+     color: #fff;
+     cursor: pointer;
+ }
+
+ /* SHOP-LOGO */
+
+.shop .logo {
+
+}
+
+.logo h1 {
+    margin-top: 25px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.logo h1 span {
+    border: 1px solid #000;
+    color: #fff;
+    background-color: #000;
+    font-size: 1.2em;
+    padding: 2px 18px;
+    font-weight: bold;
+}
+
+/* SOCIAL  */
+
+.social p {
+    float: left;
+    margin-top: 56px;
+    font-size: 1em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.social .icon {
+    float: left;
+    margin-top: 50px;
+    margin-left: 15px;
+    color: #fff;
+}
+.social i {
+    padding: 6px 7px;
+    color: #fff;
+}
+.social .facebook {
+    padding: 0px 6px;
+    background-color: #3b5998;
+}
+.social .twitter {
+    background-color: #00acee;
+}
+.social .instagram {
+    background-color: #f77737;
+}
+.social .linkedin {
+    background-color: #bd081c;
+}
+
+/* Main-menu */
+
+.main-menu {
+    height: 80px;
+    background-color: #000;
+}
+.main-menu a {
+    color: #fff;
+}
+.main-menu li {
+    float: left;
+    margin-left: 90px;
+    margin-top: 25px;
+    padding-bottom: 26px;
+    border-bottom: 5px solid transparent;
+}
+.main-menu a :hover {
+    border-bottom: 5px solid #2fdab8;
+    
+}
+.main-menu li i {
+    margin-left: 10px;
+    font-size: .7em;
+}
+img {
+    width: 100%;
+}
+.slider {
+    height: 100px;
+    filter: brightness(70%);
+}
